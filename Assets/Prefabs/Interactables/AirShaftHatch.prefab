@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2264608071615029620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8215227309848919406}
+  m_Layer: 0
+  m_Name: AirShaftHatch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8215227309848919406
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2264608071615029620}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2611519183492231753}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2573600071212946850
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8215227309848919406}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: bd18bb4adc652a146a06a8f857772265,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bd18bb4adc652a146a06a8f857772265,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bd18bb4adc652a146a06a8f857772265,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bd18bb4adc652a146a06a8f857772265,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bd18bb4adc652a146a06a8f857772265,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bd18bb4adc652a146a06a8f857772265,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bd18bb4adc652a146a06a8f857772265,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bd18bb4adc652a146a06a8f857772265,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bd18bb4adc652a146a06a8f857772265,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bd18bb4adc652a146a06a8f857772265,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd18bb4adc652a146a06a8f857772265,
+        type: 3}
+      propertyPath: m_Name
+      value: Air_Shaft_Hatch
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: bd18bb4adc652a146a06a8f857772265,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2388333796989962666}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: bd18bb4adc652a146a06a8f857772265,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1968322797264673579}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: bd18bb4adc652a146a06a8f857772265,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1154291823918765157}
+  m_SourcePrefab: {fileID: 100100000, guid: bd18bb4adc652a146a06a8f857772265, type: 3}
+--- !u!4 &2611519183492231753 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: bd18bb4adc652a146a06a8f857772265,
+    type: 3}
+  m_PrefabInstance: {fileID: 2573600071212946850}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3419967631629510899 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bd18bb4adc652a146a06a8f857772265,
+    type: 3}
+  m_PrefabInstance: {fileID: 2573600071212946850}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2388333796989962666
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3419967631629510899}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.04396844, y: 1.1168232, z: 1.0958495}
+  m_Center: {x: -0.0041363165, y: 0.5584116, z: -0.0000008046627}
+--- !u!114 &1968322797264673579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3419967631629510899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a861f5d32fef4124f9f0732ab23b1ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _feedbackData:
+    name: 
+    interactionAvailableDescription: 
+    interactionUnavailableDescription: 
+  _animationDuration: 2
+  _openAngle: 179
+  _axis: 2
+--- !u!114 &1154291823918765157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3419967631629510899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2ddf7c2959bca846b3b4c7ec9766a65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _openSound: {fileID: 8300000, guid: 86f41658cf342014390c5168fce32fe7, type: 3}
+  _closeSound: {fileID: 8300000, guid: 7edc49718851eb746b74b35ac38e446c, type: 3}

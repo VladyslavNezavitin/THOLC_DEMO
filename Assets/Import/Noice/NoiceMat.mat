@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NoiceMat
+  m_Shader: {fileID: 4800000, guid: a9f23cdbb9fcb8141a647885009b5d90, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 23622f68e7f8183478f7a3305c003e3f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0.5, y: 0.5}
+    m_Ints: []
+    m_Floats:
+    - _Angle: 50
+    - _ColorSpeed: 1
+    - _FHeight: 0.3
+    - _FSpeed: 2
+    - _LineThickness: 1
+    - _MazeScale: 1
+    - _OffsetX: 1
+    - _OffsetY: 1
+    - _RandMult: 1
+    - _WaveScaleX: 25
+    - _WaveScaleY: 1
+    - _WaveSpeed: 0
+    m_Colors: []
+  m_BuildTextureStacks: []
